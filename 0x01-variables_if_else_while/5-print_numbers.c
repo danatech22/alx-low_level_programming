@@ -4,7 +4,7 @@
 /**
   * main - Entry point
   * Description: Prints all single digits numbers in base 10
-  * Return (0)
+  * Return: 0
   */
 
 int main(void)
@@ -13,7 +13,8 @@ int main(void)
 
 	for (a = 0; a <= 10; a++)
 	{
-		printf("%d\n", a);
+		printf("%d", a);
 	}
+	putchar('\n');
 	return (0);
 }
