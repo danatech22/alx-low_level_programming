@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <unistd.h>
+
+/**
+  * main - Entry point
+  * Description: Print all possible combination of two digits
+  * Return: 0
+  */
+
+int main(void)
+{
+	int i, j, k, l;
+
+	for (i = 48; i <= 57; i++)
+	{
+		for (j = 48; j <= 57; j++)
+		{
+			for (k = 48; k <= 57; k++)
+			{
+				for (l = 48; l <= 57; i++)
+				{
+					if (((k + l) > (i + j) && k >= i) || i < k)
+					{
+						putchar(i);
+						putchar(j);
+						putchar(' ');
+						putchar(k);
+						putchar(l);
+						if (i + j + k + l == 227 && i == 57)
+						{
+							break;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
