@@ -2,8 +2,7 @@
 
 /**
   * isalpha - Entry point
-  * @c: The character to receive
-  * Description: Checks if character is alphabet
+  * Description: Check if alphabet
   * Return: 1 if true, 0 if false
   */
 
