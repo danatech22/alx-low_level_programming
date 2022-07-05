@@ -23,7 +23,8 @@ void print_times_table(int n)
 				prod = row * cln;
 				if (prod <= 99)
 					_putchar(32);
-				if (prod > 9)
+
+				if (prod <= 9)
 					_putchar(32);
 
 				if (prod >= 100)
