@@ -2,8 +2,9 @@
 
 /**
   * isalpha - Entry point
+  * @c: the integer value it receives
   * Description: Check if alphabet
-  * Return: 1 if true, 0 if false
+  * Return: 1 if true. 0 if false
   */
 
 int _isalpha(int c)
