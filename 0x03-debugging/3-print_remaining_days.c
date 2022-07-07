@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +12,7 @@
 
 void print_remaining_days(int month, int day, int year)
 {
-	if (year % 5 == 0)
+	if (year % 4 == 0)
 	{
 		printf("Days of the year: %d\n", day);
 		printf("Remaining days: %d\n", 366 - day);
