@@ -2,26 +2,25 @@
 
 /**
   * print_square - print squares with #
-  * @n: size of the square
+  * @size: size of the square
   * Return: void
   */
 
-void print_square(int n)
+void print_square(int size)
 {
-	int hgt, wid;
+	int i = 0, ii;
 
-	if (n > 0)
+	while (i < size && size > 0)
 	{
-		for (hgt == 0; hgt < n; hgt++)
+		ii = 0;
+		while (ii < size)
 		{
-			for (wid == 0; wid < n; wid++)
-			{
-				_putchar('#');
-			}
-			if (hgt == n - 1)
-				continue;
-			_putchar('\n');
+			_putchar('#');
+			ii++;
 		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
+	if (i == 0)
+		_putchar('\n');
 }
