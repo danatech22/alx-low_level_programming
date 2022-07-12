@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-  * reset_to_98 -Entry point
+  * reset_to_98 - Entry point
   * Description: Resets to 98
+  * @n: The pointer to an int
   * Return: void
   */
 
