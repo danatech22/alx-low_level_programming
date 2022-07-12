@@ -8,18 +8,16 @@
   * Return: void
   */
 
-void print_array (int *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	i = 0;
+	for (n--; n >= 0; n--, i++)
 	{
 		printf("%d", a[i]);
-
-		if (i == n - 1)
-			continue;
-
-		printf(", ");
+		if (n > 0)
+			printf(", ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
