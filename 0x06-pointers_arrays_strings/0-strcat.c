@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * *_strcat: cocantenate src to dest
+  * *_strcat - cocantenate src to dest
   * @src: String to be added
   * @dest: string to collect the added word
   * Return: Returns a pointer
