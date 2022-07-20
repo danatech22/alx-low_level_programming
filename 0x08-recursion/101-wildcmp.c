@@ -13,7 +13,7 @@ char *move(char *s2);
 
 int wildcmp(char *s1, char *s2)
 {
-	int sum;
+	int sum = 0;
 
 	if (*s1 == '\0' && *s2 == '*' && !*move(s2))
 		return (1);
