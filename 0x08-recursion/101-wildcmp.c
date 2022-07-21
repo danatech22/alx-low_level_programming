@@ -11,7 +11,7 @@ int wildcmp(char *s1, char *s2);
   * Return: the length
   */
 
-int strlen_no_willds(char *str)
+int strlen_no_wilds(char *str)
 {
 	int len = 0, i = 0;
 
