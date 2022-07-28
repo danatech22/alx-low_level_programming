@@ -40,7 +40,7 @@ char *create_xarray(int size)
 	if (arr == NULL)
 		exit(98);
 
-	for (i = 0; i < size - 1; i++)
+	for (i = 0; i < (size - 1); i++)
 		arr[i] = 'x';
 	arr[i] = '\0';
 	return (arr);
