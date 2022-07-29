@@ -185,9 +185,9 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	if (*(argv[1]) == '0')
-		argv[1] == iterate_zeroes(argv[1]);
+		argv[1] = iterate_zeroes(argv[1]);
 	if (*(argv[2]) == '0')
-		argv[2] == iterate_zeroes(argv[2]);
+		argv[2] = iterate_zeroes(argv[2]);
 	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 	{
 		printf("0\n");
